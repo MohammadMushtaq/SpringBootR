@@ -32,7 +32,7 @@ public class Book {
     private String author;
     private String title;
 
-    private Book() {
+    public Book() {
     }
 
     public void setId(Long id){
